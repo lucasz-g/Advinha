@@ -15,6 +15,6 @@ for(let i = 1; i <= 5; i++ ){
             alert("Número de tentativas: " + i);
         }
     }
-} 
+}
 
 alert("Numero: " + numero); 
