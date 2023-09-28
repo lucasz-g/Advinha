@@ -8,10 +8,11 @@ for(let i = 1; i <= 5; i++ ){
     } else {
         let diferenca = Math.abs(input - numero);
         if (diferenca > numero) {
-            alert("Errou, faltam: " + diferenca + " a menos");
+            alert("Errou, são " + diferenca + " números a menos");
             alert("Número de tentativas: " + i);    
         }else{
-            alert ("Errou, faltam: "+ diferenca +" a mais") ;
+            alert ("Errou, são "+ diferenca + " números a mais");
+            alert("Número de tentativas: " + i);
         }
     }
 } 
