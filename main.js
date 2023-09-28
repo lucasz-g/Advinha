@@ -11,7 +11,7 @@ for(let i = 1; i <= 5; i++ ){
             alert("Errou, faltam: " + diferenca + " a menos");
             alert("Número de tentativas: " + i);    
         }else{
-            alert ("Errou, faltam: "+ diferenca +" mais") ;
+            alert ("Errou, faltam: "+ diferenca +" a mais") ;
         }
     }
 } 
