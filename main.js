@@ -10,8 +10,8 @@ for(let i = 1; i <= 5; i++ ){
         if (diferenca > numero) {
             alert("Errou, são " + diferenca + " números a menos");
             alert("Número de tentativas: " + i);    
-        }else{
-            alert ("Errou, são "+ diferenca + " números a mais");
+        } else {
+            alert ("Errou, são " + diferenca + " números a mais");
             alert("Número de tentativas: " + i);
         }
     }
